@@ -1,0 +1,20 @@
+.container {
+	background-color: blue;
+	height:320px;
+	width:320px;
+}
+
+.clicked {
+	background-color:#efefef;
+}
+
+.tile {
+	width:20px;
+	height:20px;
+	float:left;
+	background-color:#bbbbbb;
+}
+
+.snake {
+	background-color:#00b684;
+}
