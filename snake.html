@@ -13,11 +13,12 @@
 		var game = new SnakeGame.Game();
 		game.setBoard();
 		game.run();
+		game.addSnake([4,4]);
 
-		$('.tile').click(function() {
-			var start_pos = event.target.id.split('_');
-			game.addSnake(start_pos);
-		});
+		// $('.tile').click(function() {
+		// 	var start_pos = event.target.id.split('_');
+		// 	game.addSnake(start_pos);
+		// });
 	</script>
 </body>
 
