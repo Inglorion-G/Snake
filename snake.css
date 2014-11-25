@@ -1,7 +1,7 @@
 .container {
-	background-color: blue;
-	height:320px;
-	width:320px;
+	background-color: #bbbbbb;
+	height:480px;
+	width:480px;
 }
 
 .clicked {
@@ -9,12 +9,22 @@
 }
 
 .tile {
-	width:20px;
-	height:20px;
+	width:30px;
+	height:30px;
 	float:left;
-	background-color:#bbbbbb;
 }
 
 .snake {
-	background-color:#00b684;
+	background-color:#00b684 !important;
+}
+
+.apple {
+	background-color:#C40000;
+	border-radius: 50%;
+}
+
+.info {
+	position: absolute;
+	bottom: 50%;
+	left: 50%;
 }

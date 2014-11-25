@@ -7,6 +7,12 @@
 </head>
 <body>
 	<div class='container'>
+		<div class="info">
+			<p>Snake! Use the arrow keys to move.</p>
+			<p>Don't run into your body.</p>
+			<p>Eat apples to grow!</p>
+			<p>Press spacebar to play and pause.</p>
+		</div>
 	</div>
 
 	<script>
@@ -14,11 +20,6 @@
 		game.setBoard();
 		game.run();
 		game.addSnake([4,4]);
-
-		// $('.tile').click(function() {
-		// 	var start_pos = event.target.id.split('_');
-		// 	game.addSnake(start_pos);
-		// });
 	</script>
 </body>
 
